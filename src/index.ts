@@ -9,7 +9,7 @@ type Args = {
 	externalDocs?: OpenAPIV3.ExternalDocumentationObject;
 };
 
-export function CaffeineApiDocs(args: Args) {
+export function CaffeineApiDocs(args?: Args) {
 	return new Elysia().use(
 		openapi({
 			path: "/docs",
