@@ -36,9 +36,9 @@ bun add @roastery/barista tsup typescript
 ## Usage
 
 ```typescript
-import { CaffeineApiDocs } from '@roastery-capsules/api-docs';
+import { baristaApiDocs } from '@roastery-capsules/api-docs';
 
-const app = CaffeineApiDocs(true, 'https://api.example.com', {
+const app = baristaApiDocs(true, 'https://api.example.com', {
   info: {
     title: 'My API',
     version: '1.0.0',
@@ -63,7 +63,7 @@ The docs are served at `/docs` by default.
 ### Disabling in production
 
 ```typescript
-const app = CaffeineApiDocs(process.env.NODE_ENV !== 'production', process.env.API_URL!);
+const app = baristaApiDocs(process.env.NODE_ENV !== 'production', process.env.API_URL!);
 ```
 
 ---

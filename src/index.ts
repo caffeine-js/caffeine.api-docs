@@ -8,7 +8,7 @@ type Args = {
 	externalDocs?: OpenAPIV3.ExternalDocumentationObject;
 };
 
-export function CaffeineApiDocs(enabled: boolean, url: string, args?: Args) {
+export function baristaApiDocs(enabled: boolean, url: string, args?: Args) {
 	return barista().use(
 		openapi({
 			path: "/docs",
