@@ -25,12 +25,6 @@ OpenAPI documentation plugin for the Roastery CMS ecosystem.
 bun add @roastery-capsules/api-docs
 ```
 
-**Peer dependencies** (install alongside):
-
-```bash
-bun add @roastery/barista tsup typescript
-```
-
 ---
 
 ## Usage
